@@ -14,6 +14,15 @@ Normal maths like coordinate system is used:
 The x-axis is positive to the right and the y-axis is positive upwards.
 Angles are positive anticlockwise.
 
+## Get started
+1. If you don't have Python installed, [install Python 3.11.1 here](https://www.python.org/downloads/release/python-3111/)
+2. Download the repository by clicking the green "Code" button on the top of the page, then "Download Zip"
+3. Extract the Zip file
+4. Open command prompt or terminal, and navigate to your newly extracted folder with `cd path/to/your/folder`
+5. Install necessary dependencies using `pip install -r requirements.txt`
+6. Run `python3 main.py` (or `python main.py`) and it should come up with errors saying that you need to fill in some code in `motion_controller.py`.
+If you have trouble or have unexpected errors with anything, please don't hesitate to ask a senior for help! :D
+
 ## Classes
 
 #### Motion Controller
@@ -27,7 +36,7 @@ The only implementations to complete are in `motion_controller.py`. Read the com
 Ideas of types of controllers to look at for inspiration:
  - Pure Pursuit
  - Stanley
- - PID
+ - Model Predictive Control
 
 *Note: The vehicle model here is very simplified, so much of what you see online may be overly complicated*
 
