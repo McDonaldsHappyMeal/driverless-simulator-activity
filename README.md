@@ -7,13 +7,6 @@ Self contained python codebase, acting as a platform to experiment with motion c
  - numpy
  - pynput
 
-## Coordinate System
-This uses standard SI units, so radians, m/s and m/s^2
-
-Normal maths like coordinate system is used:
-The x-axis is positive to the right and the y-axis is positive upwards.
-Angles are positive anticlockwise.
-
 ## Get started
 1. If you don't have Python installed, [install Python 3.11.1 here](https://www.python.org/downloads/release/python-3111/)
 2. Download the repository by clicking the green "Code" button on the top of the page, then "Download Zip"
@@ -24,6 +17,13 @@ Angles are positive anticlockwise.
 
 
 If you have trouble or have unexpected errors with anything, please don't hesitate to ask a senior for help! :D
+
+## Coordinate System
+This uses standard SI units, so radians, m/s and m/s^2
+
+Normal maths like coordinate system is used:
+The x-axis is positive to the right and the y-axis is positive upwards.
+Angles are positive anticlockwise.
 
 ## Classes
 
@@ -52,7 +52,7 @@ There is nothing implementing drag, so this will go infinitely fast if you hold 
 Takes in the cars current state and gives a list of waypoints in the form [x, y, target_velocity]. The waypoints have been precomputed for simplicity.
 
 #### Trackmap GUI
-Visualizes the cones on the track, the car's current position, and the reference waypoints.
+Visualises the cones on the track, the car's current position, and the reference waypoints.
 
 #### Keyboard Controller
 Overrides the Motion Controller, and allows the user to control the vehicle model with the keyboard. Use WASD or Arrows.
