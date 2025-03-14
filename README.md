@@ -20,7 +20,7 @@ Angles are positive anticlockwise.
 3. Extract the Zip file
 4. Open command prompt or terminal, and navigate to your newly extracted folder with `cd path/to/your/folder`
 5. Install necessary dependencies using `pip install -r requirements.txt`. If prompted to install with y/n, type y then enter
-6. Run `python3 main.py` (or `python main.py`) and it should come up with errors saying that you need to fill in some code in `motion_controller.py`.
+6. Run `python3 main.py` (or `python main.py`) and it should come up with errors saying that you need to fill in some code in `motion_controller.py`. E.g. `temp_distance = ???`
 If you have trouble or have unexpected errors with anything, please don't hesitate to ask a senior for help! :D
 
 ## Classes
